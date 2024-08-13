@@ -26,12 +26,15 @@ Install these libraries using pip:
 ```bash
 pip install opencv-python imutils dlib scipy numpy keyboard
 ```
-
+if dlib gives error of cmake then download binaries from [here](https://github.com/z-mahmud22/Dlib_Windows_Python3.x) and then do:
+```bash
+pip install path/to/dlib_binaries
+``` 
 ## Download Pre-trained Models
 
 Download the pre-trained facial landmark model:
 
-* [shape_predictor_68_face_landmarks.dat](https://github.com/z-mahmud22/Dlib_Windows_Python3.x)
+* [shape_predictor_68_face_landmarks.dat](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2)
 
 Extract the file and keep it in your working directory.
 
